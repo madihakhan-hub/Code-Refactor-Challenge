@@ -58,7 +58,7 @@ Follow these instructions to create the project and deploy it to GitHub Pages:
 
 3. Add the 'header' element within the body. *make sure to add closing elements*
 
-4. Add the 'nav' element under 'h1' for the navigation bar on the page. *Be sure to edit the CSS file for this step, otherwise the naviagation bar will display as a bulleted list on the left side under the Title. ![image](https://github.com/madihakhan-hub/Wk-1-Challenge/assets/144630720/c4c8a988-9dc4-4eef-901d-7dc4f13e7325) ![image](https://github.com/madihakhan-hub/Wk-1-Challenge/assets/144630720/51b4f4b5-034d-4bfc-a669-25c51cbba51c)
+4. Add the 'nav' element under 'h1' for the navigation bar on the page. *Be sure to edit the CSS file for this step, otherwise the naviagation bar will display as a bulleted list on the left side under the Title.* ![image](https://github.com/madihakhan-hub/Wk-1-Challenge/assets/144630720/c4c8a988-9dc4-4eef-901d-7dc4f13e7325) ![image](https://github.com/madihakhan-hub/Wk-1-Challenge/assets/144630720/51b4f4b5-034d-4bfc-a669-25c51cbba51c)
 
 5. For the images, amke sure to add the 'figure' element. In the opening element, be sure to include the id and class before adding the closing arrow. ![image](https://github.com/madihakhan-hub/Wk-1-Challenge/assets/144630720/4209a4a6-ce44-4cb5-b312-ab51aa88a506)
 
