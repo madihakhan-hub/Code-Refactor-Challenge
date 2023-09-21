@@ -1,38 +1,8 @@
-# 01 HTML, CSS, and Git: Code Refactor
+# 01 HTML, CSS, and Git: Code Refactor - Module 1 Challenge
 
-## Challenges in This Course
+## Description
 
-There are two types of Challenges in this course. Each one is designed to prepare you for a scenario that you're likely to encounter as a web developer.
-
-### Challenge Types 
-
-The two types of Challenges are the following:
-
-* **On-the-job ticket** or **feature request Challenges** give you starter code in a folder called `Develop`, which you'll modify to complete the Challenge. Odd-numbered modules follow this format.
-
-> **Important**: For assignments with starter code, be sure to copy the contents of the `Develop` folder directly into your repository. Do not include the `Develop` folder itself.
-
-* **Job-seeking coding assessments** or **take-home assignments** don't provide starter code. You'll build these from scratch. Even-numbered modules follow this format.
-
-### Challenge Elements
-
-Challenges adhere to a format that's commonly used by software development teams that use **agile project management** to manage their work. Practicing this will prepare you for the workflows you'll experience as a professional full-stack web developer. 
-
-> **Deep Dive**: To learn more about agile, read this [Wikipedia article on agile software development](https://en.wikipedia.org/wiki/Agile_software_development).
-
-Each Challenge contains the following elements:
-
-* **User Story**: This is a short, simple description of a feature told from the perspective of the person who is requesting the new capability, usually a user or customer of the system. This follows an AS AN / I WANT / SO THAT format. For example, "AS A shopper visiting an online store, I WANT to place items in a shopping cart, SO THAT I can purchase them." 
-
-* **Acceptance Criteria**: These are the requirements that you must meet to satisfy the scope of work. They are not exhaustive, but they do entail the minimum aspects of a working solution. Consider this a checklist of baseline requirements. Acceptance criteria can be presented in various ways. In this case, we'll use a common format called **scenario-oriented criteria** which expresses each requirement in a WHEN / THEN format. Don't worry if this doesn't make sense now; it will become very familiar to you after you complete a couple of Challenges. 
-
-* **Mock-up**: This is an image or animation that demonstrates the design and functionality of the web application that you'll build for the Challenge.
-
-* **Submission**: You'll submit your completed Challenge for review. In the real world, when a developer finishes working on a project, another developer reviews the code, providing feedback on errors and making sure that all of the acceptance criteria have been met. For each Challenge, your instructional staff will serve as your team of reviewers.
-
-## Your Task
-
-This week is an odd-numbered week, so your Challenge is an on-the-job ticket&mdash;meaning that you'll begin with starter code that you need to modify. 
+This week's Challenge is an on-the-job ticket&mdash;meaning that I will begin with a starter code that  I need to modify. 
 
 **Refactoring** existing code (improving it without changing what it does) to meet a certain set of standards or to implement a new technology is a common task for front-end and junior developers. For this particular Challenge, a marketing agency has hired you to refactor an existing site to make it more accessible. 
 
@@ -78,81 +48,35 @@ The following image shows the web application's appearance and functionality:
 
 > **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
 
-## Getting Started
+## Installation
 
-Follow these instructions to create your project and deploy it to GitHub Pages:
+Follow these instructions to create the project and deploy it to GitHub Pages:
 
 1. Create a new repository on your GitHub account and clone it to your computer.
 
-2. When you're ready to deploy, use the `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
+2. Once the repository is cloned, use VScode to open the "index.html" file to start editing by adding HTML semantics.
 
-3. Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
+3. Add the 'header' element within the body. *make sure to add closing elements*
 
-4. On the Settings page, select Pages on the left side of the page. On the GitHub Pages screen, choose `main` in the dropdown under Branch. Click the Save button.
+4. Add the 'nav' element under 'h1' for the navigation bar on the page. *Be sure to edit the CSS file for this step, otherwise the naviagation bar will display as a bulleted list on the left side under the Title. ![image](https://github.com/madihakhan-hub/Wk-1-Challenge/assets/144630720/c4c8a988-9dc4-4eef-901d-7dc4f13e7325) ![image](https://github.com/madihakhan-hub/Wk-1-Challenge/assets/144630720/51b4f4b5-034d-4bfc-a669-25c51cbba51c)
 
-5. Navigate to <your-github-username.github.io/your-repository-name> and you will find that your new webpage has gone live! For example, if your GitHub username is "lernantino" and the project is "css-demo-site", then your URL would be <lernantino.github.io/css-demo-site>.
+5. For the images, amke sure to add the 'figure' element. In the opening element, be sure to include the id and class before adding the closing arrow. ![image](https://github.com/madihakhan-hub/Wk-1-Challenge/assets/144630720/4209a4a6-ce44-4cb5-b312-ab51aa88a506)
+
+6. Add 'alt' attribute to describe the image, making it more accessible for all users who may not be able to view the image. ![image](https://github.com/madihakhan-hub/Wk-1-Challenge/assets/144630720/1c450929-a6f6-4ad6-9526-2705c4cd548a)
+
+7. Add 'aside' element used for the textbox on the right side of the screen. ![image](https://github.com/madihakhan-hub/Wk-1-Challenge/assets/144630720/8f45d636-6ea7-474c-a743-7fea48cd7ae6)
+
+9. Add 'footer' element. ![image](https://github.com/madihakhan-hub/Wk-1-Challenge/assets/144630720/7122fc9e-56b7-451c-8845-d217c95e51d3)
+
+10. When you're ready to deploy, use the `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
+
+11. Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
+
+12. On the Settings page, select Pages on the left side of the page. On the GitHub Pages screen, choose `main` in the dropdown under Branch. Click the Save button.
+
+13. Navigate to <your-github-username.github.io/your-repository-name> and you will find that your new webpage has gone live! For example, if your GitHub username is "lernantino" and the project is "css-demo-site", then your URL would be <lernantino.github.io/css-demo-site>.
 
 > **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an inccorect capital or lowercase letter could cause problems in deployment.
 
 Be sure to add, commit, and push your work to see the most up-to-date version of your app!
 
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria plus the following code improvements:
-
-  * Application's links all function correctly.
-
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-
-  * Application's CSS file is properly commented.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles mock-up provided in the Challenge instructions (at least 90%).
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README that describes the project.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
